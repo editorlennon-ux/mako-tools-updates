@@ -1,0 +1,27 @@
+{
+  "app": "mako-tools",
+  "latestVersion": "2.7.0",
+  "releaseDate": "2026-09-18",
+  "minAE": "2022",
+  "title": "Mako Tools 2.7.0 Turbo",
+  "changelog": [
+    "🚀 <b>Mako Tools 2.7 Turbo</b>: 1.224 presets FFX, DarkGrain e Editing Pack.",
+    "🪟 <b>Mako Glass Studio</b>: Refração física óptica 3D nativa com chanfro e aberração cromática.",
+    "💬 <b>Legendas Dinâmicas Pro</b>: 53 estilos cinematográficos com importador SRT.",
+    "💾 <b>Auto-Save Backup</b>: Salvamento automático na pasta do projeto.",
+    "🔄 <b>Auto-Updater Integrado</b>: Atualização em 1-clique direta pelo painel via GitHub!"
+  ],
+  "downloadUrls": {
+    "directZip": "https://github.com/editorlennon-ux/mako-tools-updates/releases/latest/download/update.zip",
+    "zxp": "https://github.com/editorlennon-ux/mako-tools-updates/releases/latest/download/Mako_Tools.zxp",
+    "zxpName": "Mako_Tools.zxp"
+  },
+  "suite": {
+    "curves": {
+      "version": "1.2.0"
+    },
+    "crt": {
+      "version": "1.6.0"
+    }
+  }
+}
