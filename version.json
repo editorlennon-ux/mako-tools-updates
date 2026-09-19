@@ -1,15 +1,15 @@
 {
   "app": "mako-tools",
-  "latestVersion": "2.7.0",
-  "releaseDate": "2026-09-18",
+  "latestVersion": "2.7.1",
+  "releaseDate": "2026-09-19",
   "minAE": "2022",
-  "title": "Mako Tools 2.7.0 Turbo",
+  "title": "Mako Tools 2.7.1 Turbo",
   "changelog": [
-    "🚀 <b>Mako Tools 2.7 Turbo</b>: 1.224 presets FFX, DarkGrain e Editing Pack.",
-    "🪟 <b>Mako Glass Studio</b>: Refração física óptica 3D nativa com chanfro e aberração cromática.",
-    "💬 <b>Legendas Dinâmicas Pro</b>: 53 estilos cinematográficos com importador SRT.",
-    "💾 <b>Auto-Save Backup</b>: Salvamento automático na pasta do projeto.",
-    "🔄 <b>Auto-Updater Integrado</b>: Atualização em 1-clique direta pelo painel via GitHub!"
+    "🚀 <b>Mako Tools 2.7.1 Turbo</b>: Atualização de estabilidade e novas ferramentas.",
+    "📁 <b>Conexão Automática da Biblioteca</b>: Deep auto-discovery em todos os discos e botão em configurações.",
+    "🎨 <b>Cores do Tema 100% Dinâmicas</b>: Todos os botões, Apply, abas e bordas respeitam o tema escolhido.",
+    "⚡ <b>Acervo Stock Otimizado</b>: Download de ícones SVG direto na memória sem erro HTTP 429.",
+    "🧹 <b>Interface Limpa</b>: Removidos botões obsoletos de Clean FX."
   ],
   "downloadUrls": {
     "directZip": "https://github.com/editorlennon-ux/mako-tools-updates/releases/latest/download/update.zip",
