@@ -1,15 +1,16 @@
 {
   "app": "mako-tools",
-  "latestVersion": "2.7.1",
-  "releaseDate": "2026-09-19",
+  "latestVersion": "2.7.2",
+  "releaseDate": "2026-09-22",
   "minAE": "2022",
-  "title": "Mako Tools 2.7.1 Turbo",
+  "title": "Mako Tools 2.7.2 Turbo & Mako CRT Studio 2.0.1",
   "changelog": [
-    "🚀 <b>Mako Tools 2.7.1 Turbo</b>: Atualização de estabilidade e novas ferramentas.",
-    "📁 <b>Conexão Automática da Biblioteca</b>: Deep auto-discovery em todos os discos e botão em configurações.",
-    "🎨 <b>Cores do Tema 100% Dinâmicas</b>: Todos os botões, Apply, abas e bordas respeitam o tema escolhido.",
-    "⚡ <b>Acervo Stock Otimizado</b>: Download de ícones SVG direto na memória sem erro HTTP 429.",
-    "🧹 <b>Interface Limpa</b>: Removidos botões obsoletos de Clean FX."
+    "Fixed RemBG layer index shift and transform preservation (duplicate & replace modes)",
+    "Added RemBG insertion validation preventing false success reports",
+    "Project-isolated AutoSave subfolder (_MAKO_AUTOSAVE/<ProjectName>) with explicit notifications",
+    "Visual-preserving Un-Precomp with Guide Null rig preserving transforms, rotation, scale, and hierarchy",
+    "Surrogate-pair aware Unicode Text Explode supporting emojis without corruption and spatial offsets",
+    "Multi-target honest RAM Cache purge diagnostics with zero false success messages"
   ],
   "downloadUrls": {
     "directZip": "https://github.com/editorlennon-ux/mako-tools-updates/releases/latest/download/update.zip",
@@ -18,10 +19,33 @@
   },
   "suite": {
     "curves": {
-      "version": "1.2.0"
+      "version": "1.2.0",
+      "changelog": [
+        "Curvas Bézier cinematográficas e controle ultra suave",
+        "Suporte a auto-atualização direta no painel e via ZXP"
+      ],
+      "downloadUrls": {
+        "directZip": "https://github.com/editorlennon-ux/mako-tools-updates/releases/latest/download/mako_curves_update.zip",
+        "zxp": "https://github.com/editorlennon-ux/mako-tools-updates/releases/latest/download/Mako_Curves.zxp",
+        "zxpName": "Mako_Curves.zxp"
+      }
     },
     "crt": {
-      "version": "1.6.0"
+      "version": "2.0.1",
+      "releaseDate": "2026-09-22",
+      "title": "Mako CRT Studio 2.0.1",
+      "changelog": [
+        "Full screen 1920x1080 Background Scatter matrix coverage (centered anchor & dynamic grid)",
+        "Deep custom effect stack serialization with JSON export/import",
+        "Targeted opacity slider with HUD layer indicator",
+        "Safe stateful bypass preserving user effects",
+        "Auto-updater anti-cache bypass and safe rollback staging"
+      ],
+      "downloadUrls": {
+        "directZip": "https://github.com/editorlennon-ux/mako-tools-updates/releases/latest/download/mako_crt_update.zip",
+        "zxp": "https://github.com/editorlennon-ux/mako-tools-updates/releases/latest/download/Mako_CRT.zxp",
+        "zxpName": "Mako_CRT.zxp"
+      }
     }
   }
 }
