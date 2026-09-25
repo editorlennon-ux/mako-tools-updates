@@ -1,16 +1,18 @@
 {
   "app": "mako-tools",
-  "latestVersion": "2.7.2",
-  "releaseDate": "2026-09-22",
+  "latestVersion": "2.8.0",
+  "releaseDate": "2026-09-24",
   "minAE": "2022",
-  "title": "Mako Tools 2.7.2 Turbo & Mako CRT Studio 2.0.1",
+  "title": "Mako Tools 2.8.0 Turbo & Mako Quick Tools Studio",
   "changelog": [
-    "Fixed RemBG layer index shift and transform preservation (duplicate & replace modes)",
-    "Added RemBG insertion validation preventing false success reports",
-    "Project-isolated AutoSave subfolder (_MAKO_AUTOSAVE/<ProjectName>) with explicit notifications",
-    "Visual-preserving Un-Precomp with Guide Null rig preserving transforms, rotation, scale, and hierarchy",
-    "Surrogate-pair aware Unicode Text Explode supporting emojis without corruption and spatial offsets",
-    "Multi-target honest RAM Cache purge diagnostics with zero false success messages"
+    "Added standalone Mako Quick Tools dockable extension panel for native AE docking and tear-off",
+    "Unified Quick Tools bar combining editing tools and quick presets into a streamlined strip",
+    "Quick Tools Studio (⚙️) modal for reordering, toggling visibility, and deleting buttons",
+    "Add Custom Preset feature with 48-icon visual picker and instant catalog preset selection",
+    "1-click Detach button (↗) inside main Mako Tools to spawn Quick Tools panel instantly in AE",
+    "Icons & Vectors: Fast vector icons catalog (Iconify) with dual insertion formats: Editable Shape Layer and HD PNG",
+    "Dynamic Captions: Centered section header with live item count and real-time search filtering",
+    "Full support for Native AE Effects (Gaussian Blur, Curves, Glow, Transform, etc.) and 100% responsive fluid layout"
   ],
   "downloadUrls": {
     "directZip": "https://github.com/editorlennon-ux/mako-tools-updates/releases/latest/download/update.zip",
