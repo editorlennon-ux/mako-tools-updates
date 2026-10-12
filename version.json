@@ -53,11 +53,17 @@
       "changelog": ["Gabaritos oficiais do Reels, TikTok e Shorts 9:16 anti-corte"]
     },
     "mako-bg-studio-ae": {
-      "version": "1.0.0",
+      "version": "2.0.0",
       "name": "Mako Background Studio Pro AE",
       "host": "ae",
-      "downloadUrl": "https://github.com/editorlennon-ux/mako-tools-updates/releases/download/v1.0.0/mako-bg-studio-ae-v1.0.0.zip",
-      "changelog": ["Speedlines de mangá shonen e fundos procedurais WebGL"]
+      "downloadUrl": "https://github.com/editorlennon-ux/mako-tools-updates/releases/download/v2.0.0/Mako_Background_Studio_AE_2.0.0.zxp",
+      "changelog": [
+        "Nova Aba 05: Glitch Studio com 16 Estilos Procedurais em WebGL",
+        "Presets Personalizados com salvamento e carregamento 1-clique",
+        "Histórico e Undo de Shuffle (recupera até 3 combinações anteriores)",
+        "Overhaul do Shader Grunge & Nanquim com textura tátil de papel washi",
+        "100% de paridade entre After Effects e Premiere Pro"
+      ]
     },
     "mako-memes-pro-ppro": {
       "version": "1.0.0",
@@ -123,11 +129,17 @@
       "changelog": ["Gabaritos de área de segurança 9:16 para o Program Monitor"]
     },
     "mako-bg-studio-ppro": {
-      "version": "1.0.0",
+      "version": "2.0.0",
       "name": "Mako Background Studio Pro (Premiere)",
       "host": "ppro",
-      "downloadUrl": "https://github.com/editorlennon-ux/mako-tools-updates/releases/download/v1.0.0/mako-bg-studio-ppro-v1.0.0.zip",
-      "changelog": ["Speedlines e fundos de ação procedurais para Premiere"]
+      "downloadUrl": "https://github.com/editorlennon-ux/mako-tools-updates/releases/download/v2.0.0/Mako_Background_Studio_2.0.0.zxp",
+      "changelog": [
+        "Nova Aba 05: Glitch Studio com 16 Estilos Procedurais em WebGL",
+        "Presets Personalizados com salvamento e carregamento 1-clique",
+        "Histórico e Undo de Shuffle (recupera até 3 combinações anteriores)",
+        "Overhaul do Shader Grunge & Nanquim com textura tátil de papel washi",
+        "100% de paridade entre After Effects e Premiere Pro"
+      ]
     },
     "mako-anchor-pro-ppro": {
       "version": "1.0.0",

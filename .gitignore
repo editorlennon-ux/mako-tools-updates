@@ -1,0 +1,5 @@
+# Binários e pacotes são anexados nos Releases do GitHub
+releases/
+*.zxp
+*.zip
+*.rar
