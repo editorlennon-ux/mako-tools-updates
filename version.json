@@ -1,53 +1,147 @@
 {
-  "app": "mako-tools",
-  "latestVersion": "2.8.0",
-  "releaseDate": "2026-09-24",
-  "minAE": "2022",
-  "title": "Mako Tools 2.8.0 Turbo & Mako Quick Tools Studio",
-  "changelog": [
-    "Added standalone Mako Quick Tools dockable extension panel for native AE docking and tear-off",
-    "Unified Quick Tools bar combining editing tools and quick presets into a streamlined strip",
-    "Quick Tools Studio (⚙️) modal for reordering, toggling visibility, and deleting buttons",
-    "Add Custom Preset feature with 48-icon visual picker and instant catalog preset selection",
-    "1-click Detach button (↗) inside main Mako Tools to spawn Quick Tools panel instantly in AE",
-    "Icons & Vectors: Fast vector icons catalog (Iconify) with dual insertion formats: Editable Shape Layer and HD PNG",
-    "Dynamic Captions: Centered section header with live item count and real-time search filtering",
-    "Full support for Native AE Effects (Gaussian Blur, Curves, Glow, Transform, etc.) and 100% responsive fluid layout"
-  ],
-  "downloadUrls": {
-    "directZip": "https://github.com/editorlennon-ux/mako-tools-updates/releases/latest/download/update.zip",
-    "zxp": "https://github.com/editorlennon-ux/mako-tools-updates/releases/latest/download/Mako_Tools.zxp",
-    "zxpName": "Mako_Tools.zxp"
-  },
-  "suite": {
-    "curves": {
-      "version": "1.2.0",
-      "changelog": [
-        "Curvas Bézier cinematográficas e controle ultra suave",
-        "Suporte a auto-atualização direta no painel e via ZXP"
-      ],
-      "downloadUrls": {
-        "directZip": "https://github.com/editorlennon-ux/mako-tools-updates/releases/latest/download/mako_curves_update.zip",
-        "zxp": "https://github.com/editorlennon-ux/mako-tools-updates/releases/latest/download/Mako_Curves.zxp",
-        "zxpName": "Mako_Curves.zxp"
-      }
+  "updatedAt": "2026-10-11T15:00:00Z",
+  "catalogVersion": "1.0.0",
+  "description": "Catálogo Oficial de Versões dos Plugins Mako Tools Suite (Premiere Pro & After Effects)",
+  "plugins": {
+    "mako-memes-pro-ae": {
+      "version": "1.0.0",
+      "name": "Mako Memes Pro AE",
+      "host": "ae",
+      "downloadUrl": "https://github.com/editorlennon-ux/mako-tools-updates/releases/download/v1.0.0/mako-memes-pro-ae-v1.0.0.zip",
+      "changelog": ["Lançamento Oficial v1.0", "+1.500 memes prontos em 1080p com chroma key"]
     },
-    "crt": {
-      "version": "2.0.1",
-      "releaseDate": "2026-09-22",
-      "title": "Mako CRT Studio 2.0.1",
-      "changelog": [
-        "Full screen 1920x1080 Background Scatter matrix coverage (centered anchor & dynamic grid)",
-        "Deep custom effect stack serialization with JSON export/import",
-        "Targeted opacity slider with HUD layer indicator",
-        "Safe stateful bypass preserving user effects",
-        "Auto-updater anti-cache bypass and safe rollback staging"
-      ],
-      "downloadUrls": {
-        "directZip": "https://github.com/editorlennon-ux/mako-tools-updates/releases/latest/download/mako_crt_update.zip",
-        "zxp": "https://github.com/editorlennon-ux/mako-tools-updates/releases/latest/download/Mako_CRT.zxp",
-        "zxpName": "Mako_CRT.zxp"
-      }
+    "mako-tools-ae": {
+      "version": "2.9.0",
+      "name": "Mako Tools AE",
+      "host": "ae",
+      "downloadUrl": "https://github.com/editorlennon-ux/mako-tools-updates/releases/download/v2.9.0/mako-tools-ae-v2.9.0.zip",
+      "changelog": ["Toolbar Flutuante Quick Tools v2.9", "Matriz 3x3 de Âncora & +1.224 Presets FFX"]
+    },
+    "mako-crt-studio-ae": {
+      "version": "1.0.0",
+      "name": "Mako CRT Studio AE",
+      "host": "ae",
+      "downloadUrl": "https://github.com/editorlennon-ux/mako-tools-updates/releases/download/v1.0.0/mako-crt-studio-ae-v1.0.0.zip",
+      "changelog": ["Emulação de monitores de tubo CRT, scanlines e aberração RGB"]
+    },
+    "mako-curves-ae": {
+      "version": "1.0.0",
+      "name": "Mako Curves AE",
+      "host": "ae",
+      "downloadUrl": "https://github.com/editorlennon-ux/mako-tools-updates/releases/download/v1.0.0/mako-curves-ae-v1.0.0.zip",
+      "changelog": ["Editor de curvas Bézier e easing cinemático para keyframes"]
+    },
+    "asset-forge": {
+      "version": "1.0.0",
+      "name": "Asset Forge Pro (Dual CEP)",
+      "host": "dual",
+      "downloadUrl": "https://github.com/editorlennon-ux/mako-tools-updates/releases/download/v1.0.0/asset-forge-v1.0.0.zip",
+      "changelog": ["+200.000 vídeos documentais e arquivos históricos com injeção direta"]
+    },
+    "mako-wheel-ae": {
+      "version": "2.0.0",
+      "name": "Mako Wheel 2.0 AE",
+      "host": "ae",
+      "downloadUrl": "https://github.com/editorlennon-ux/mako-tools-updates/releases/download/v2.0.0/mako-wheel-ae-v2.0.0.zip",
+      "changelog": ["Menu radial headless sob o mouse com resposta em menos de 50ms"]
+    },
+    "mako-safe-zone-ae": {
+      "version": "1.0.0",
+      "name": "Mako Safe Zone Pro AE",
+      "host": "ae",
+      "downloadUrl": "https://github.com/editorlennon-ux/mako-tools-updates/releases/download/v1.0.0/mako-safe-zone-ae-v1.0.0.zip",
+      "changelog": ["Gabaritos oficiais do Reels, TikTok e Shorts 9:16 anti-corte"]
+    },
+    "mako-bg-studio-ae": {
+      "version": "1.0.0",
+      "name": "Mako Background Studio Pro AE",
+      "host": "ae",
+      "downloadUrl": "https://github.com/editorlennon-ux/mako-tools-updates/releases/download/v1.0.0/mako-bg-studio-ae-v1.0.0.zip",
+      "changelog": ["Speedlines de mangá shonen e fundos procedurais WebGL"]
+    },
+    "mako-memes-pro-ppro": {
+      "version": "1.0.0",
+      "name": "Mako Memes Pro (Premiere)",
+      "host": "ppro",
+      "downloadUrl": "https://github.com/editorlennon-ux/mako-tools-updates/releases/download/v1.0.0/mako-memes-pro-ppro-v1.0.0.zip",
+      "changelog": ["Catálogo de memes com áudio e chroma key direto na agulha"]
+    },
+    "mako-voice-ppro": {
+      "version": "1.0.0",
+      "name": "Mako Voice Studio (Premiere)",
+      "host": "ppro",
+      "downloadUrl": "https://github.com/editorlennon-ux/mako-tools-updates/releases/download/v1.0.0/mako-voice-ppro-v1.0.0.zip",
+      "changelog": ["Tratamento de voz e equalização rápida para podcasts e vídeos"]
+    },
+    "mako-humanizer-voice-ppro": {
+      "version": "1.0.0",
+      "name": "Mako Humanizer Voice (Premiere)",
+      "host": "ppro",
+      "downloadUrl": "https://github.com/editorlennon-ux/mako-tools-updates/releases/download/v1.0.0/mako-humanizer-voice-ppro-v1.0.0.zip",
+      "changelog": ["Humanizador de vozes sintéticas e remoção de artefatos robóticos"]
+    },
+    "mako-sfx-studio-ppro": {
+      "version": "1.0.0",
+      "name": "Mako SFX Studio (Premiere)",
+      "host": "ppro",
+      "downloadUrl": "https://github.com/editorlennon-ux/mako-tools-updates/releases/download/v1.0.0/mako-sfx-studio-ppro-v1.0.0.zip",
+      "changelog": ["Efeitos sonoros organizados por categoria com preview em 1 clique"]
+    },
+    "mako-curves-ppro": {
+      "version": "1.0.0",
+      "name": "Mako Curves (Premiere)",
+      "host": "ppro",
+      "downloadUrl": "https://github.com/editorlennon-ux/mako-tools-updates/releases/download/v1.0.0/mako-curves-ppro-v1.0.0.zip",
+      "changelog": ["Interpolação de velocidade suave para cortes e transições no Premiere"]
+    },
+    "mako-tools-ppro": {
+      "version": "1.0.0",
+      "name": "Mako Tools (Premiere)",
+      "host": "ppro",
+      "downloadUrl": "https://github.com/editorlennon-ux/mako-tools-updates/releases/download/v1.0.0/mako-tools-ppro-v1.0.0.zip",
+      "changelog": ["Utilitários de timeline, atalhos rápidos e automação"]
+    },
+    "mako-action-bar-ppro": {
+      "version": "1.0.0",
+      "name": "Mako Action Bar (Premiere)",
+      "host": "ppro",
+      "downloadUrl": "https://github.com/editorlennon-ux/mako-tools-updates/releases/download/v1.0.0/mako-action-bar-ppro-v1.0.0.zip",
+      "changelog": ["Dock flutuante de atalhos e automações em 1 clique"]
+    },
+    "mako-crt-studio-ppro": {
+      "version": "1.0.0",
+      "name": "Mako CRT Studio (Premiere)",
+      "host": "ppro",
+      "downloadUrl": "https://github.com/editorlennon-ux/mako-tools-updates/releases/download/v1.0.0/mako-crt-studio-ppro-v1.0.0.zip",
+      "changelog": ["Emulador analógico CRT e texturas vintage para timeline"]
+    },
+    "mako-safe-zone-ppro": {
+      "version": "1.0.0",
+      "name": "Mako Safe Zone Pro (Premiere)",
+      "host": "ppro",
+      "downloadUrl": "https://github.com/editorlennon-ux/mako-tools-updates/releases/download/v1.0.0/mako-safe-zone-ppro-v1.0.0.zip",
+      "changelog": ["Gabaritos de área de segurança 9:16 para o Program Monitor"]
+    },
+    "mako-bg-studio-ppro": {
+      "version": "1.0.0",
+      "name": "Mako Background Studio Pro (Premiere)",
+      "host": "ppro",
+      "downloadUrl": "https://github.com/editorlennon-ux/mako-tools-updates/releases/download/v1.0.0/mako-bg-studio-ppro-v1.0.0.zip",
+      "changelog": ["Speedlines e fundos de ação procedurais para Premiere"]
+    },
+    "mako-anchor-pro-ppro": {
+      "version": "1.0.0",
+      "name": "Mako Anchor Pro (Premiere)",
+      "host": "ppro",
+      "downloadUrl": "https://github.com/editorlennon-ux/mako-tools-updates/releases/download/v1.0.0/mako-anchor-pro-ppro-v1.0.0.zip",
+      "changelog": ["Controle de ponto de ancoragem 9-pontos milimétrico"]
+    },
+    "mako-media-studio-ppro": {
+      "version": "1.0.0",
+      "name": "Mako Media Studio (Premiere)",
+      "host": "ppro",
+      "downloadUrl": "https://github.com/editorlennon-ux/mako-tools-updates/releases/download/v1.0.0/mako-media-studio-ppro-v1.0.0.zip",
+      "changelog": ["Trimmer cirúrgico de YouTube com In/Out & IA local offline"]
     }
   }
 }
